@@ -6,9 +6,6 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
-import ContactMe from "./pages/Contactme";
-import TestPinScroll from "./pages/TestPinScroll";
-import PageReveal from "./pages/PageReveal";
 import Bell from "./pages/Bell";
 import Footer from "./components/Footer";
 gsap.registerPlugin(useGSAP);
@@ -55,13 +52,6 @@ function App() {
     </div>
       <Skills />
       <Projects />
-      {/* <PageReveal /> */}
-
-      {/* <PinnedPages /> */}
-
-      {/* <div className="h-[200vh]">
-
-      </div> */}
       <Bell />
           <Footer />
     </div>

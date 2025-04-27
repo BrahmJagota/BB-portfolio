@@ -19,7 +19,7 @@ export default function PageReveal() {
             position: "absolute",
             top: 0,
             left: 0,
-            zIndex: (i, target, targets) => targets.length - i,
+            zIndex: (i, _target, targets) => targets.length - i,
         });
         
         // Create the reveal animation

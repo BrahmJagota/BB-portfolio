@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { bell, bell1, bell2, hector } from "../assets/images";
+import {  bell1, bell2 } from "../assets/images";
 import { useRef } from "react";
 import ContactMe from "./Contactme";
 
